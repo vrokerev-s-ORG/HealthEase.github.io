@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, #003C38, #ECFDFF);
+   }
+.logo{
+    height: 50%;
+    width: 29%;
+    margin: 2em;
+    display:inline-block;
+    border-radius: 20px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /* Esto elimina los marcadores de lista predeterminados */
+    padding: 0; /* Esto elimina el espacio predeterminado alrededor de los elementos de la lista */
+   }
+   
+.nav-ul{
+
+}
+header{
+    z-index: 1000;
+}
+nav{
+    background: #003C38;
+}
+
+   
