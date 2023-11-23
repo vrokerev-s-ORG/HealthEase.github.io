@@ -198,10 +198,15 @@ img {
 }
 .benefits-section {
     display: flex;
+    background-color: #fff;
     justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+    align-items: start;
+    padding-left: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-top: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .benefits-image img {
@@ -211,19 +216,22 @@ img {
 }
 
 .benefits-text {
-    width: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .benefits-text h2 {
-    font-size: 2em;
+    font-size: 45px;
     color: #003c38;
-    margin-bottom: 10px;
 }
 
 .benefits-text p {
-    font-size: 1.2em;
+    font-size: 16px;
     color: #333;
+    width: 27em;
+    line-height: 1.75em;
+}
+.frases{
+    padding-top: 7%;
 }
 
 .main-scroll-div{
@@ -291,4 +299,58 @@ img {
     margin: 0 auto;
     max-width: 70%; 
     border-radius: 50%;
+}
+
+.SeguimientoGlobal{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 7em;
+    padding-bottom: 4em;
+}
+
+.SeguimientoGlobal div{
+    text-align: center;
+}
+.SeguimientoGlobal div h2{
+    color: #00E5CC;
+    font-size: 45px;
+}
+.SeguimientoGlobal div p{
+    color: #9090A7;
+    font-size: 16px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ECFDFF;
+    padding-left: 5em;
+    width: 95%;
+}
+.cform{
+
+}
+.cform button{
+    background-color: #060640;
+    color: white;
+    font-size: 14px;
+    padding-left:2em;
+    padding-right:2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.cform input{
+    border-color: #fff;
+    width: 80%;
+    
+}
+
+.Email{
+    padding-top: 5em;
+}
+.Email h2{
+    color: #060640;
+    font-size: 45px;
+    margin-bottom: 2em;
 }
