@@ -38,5 +38,5 @@ function scrolll(){
 }
 function scrollr(){
     const container = document.querySelector(".scroll-test");
-    container.scrollBy(100, 0);
+    containe.scrollBy(100, 0);
 }   
