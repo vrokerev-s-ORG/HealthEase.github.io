@@ -210,9 +210,10 @@ img {
 }
 
 .benefits-image img {
-    border-radius: 25%;
     width: 500px;
     height: 500px;
+    object-fit: cover;
+    padding-top: 1.5em;
 }
 
 .benefits-text {
@@ -224,7 +225,7 @@ img {
     color: #003c38;
 }
 
-.benefits-text p {
+.pa {
     font-size: 16px;
     color: #333;
     width: 27em;
@@ -328,7 +329,7 @@ img {
     width: 95%;
 }
 .cform{
-
+    display: flex;
 }
 .cform button{
     background-color: #060640;
@@ -342,8 +343,9 @@ img {
 
 .cform input{
     border-color: #fff;
-    width: 80%;
-    
+    width: 150%;
+    padding-right: 7em;
+
 }
 
 .Email{
@@ -353,4 +355,30 @@ img {
     color: #060640;
     font-size: 45px;
     margin-bottom: 2em;
+}
+.frases .f1{
+    display: flex;
+}
+.frases .f2{
+    display: flex;
+   
+}
+.frases .f1 .i1 img{
+    margin-top: 0;
+}
+.frases .f2 .i2 img{
+    margin-top: 0;
+}
+.frases .f1 .p1 p{
+    padding-left: 10px;
+}
+.frases .f2 .p2 p{
+    padding-left: 10px;
+}
+
+.frases .f1 .p1 p{
+    width: 20em;
+}
+.SeguimientoGlobal .parrafos{
+    padding-bottom: 50px;
 }
