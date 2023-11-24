@@ -439,3 +439,26 @@ img {
     text-align: center;
     margin-top: 10px;
 }
+
+/*Suscribete*/
+.titulo-contacto{
+    color: #060640;
+}
+.input{
+    border-radius: 2em;
+    border: 0;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+
+.form button{
+    background-color: #060640;
+    color: white;
+    font-size: 14px;
+    padding-left:2em;
+    padding-right:2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
