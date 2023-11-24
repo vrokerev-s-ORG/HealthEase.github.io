@@ -440,17 +440,52 @@ img {
     margin-top: 10px;
 }
 
-/*Suscribete*/
-.titulo-contacto{
-    color: #060640;
+/*Contacto*/
+.contenedor,
+.wave.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .input{
+    background: white;
     border-radius: 2em;
     border: 0;
     color: black;
     outline: none;
     border: 1px solid black;
     padding: 20px 10px;
+}
+.input::placeholder{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
 }
 
 .form button{
