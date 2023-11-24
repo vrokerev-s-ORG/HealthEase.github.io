@@ -1,7 +1,7 @@
 const benefits = document.querySelector("#benefits")
 const testimonios = document.querySelector("#testimonios")
 const seguimiento = document.querySelector("#seguimiento")
-const suscribete = document.querySelector("#suscribete")
+const suscribete = document.querySelector("#contacto")
 
 /* Beneficios */
 benefits.addEventListener("click", (b) => {
@@ -25,9 +25,9 @@ seguimiento.addEventListener("click", (s) => {
 })
 
 /* suscribete */
-suscribete.addEventListener("click", (u) => {
+contacto.addEventListener("click", (u) => {
     u.preventDefault();
-    const sectionU = document.querySelector(".subscribe");
+    const sectionU = document.querySelector(".contacto");
     sectionU.scrollIntoView({behavior:"smooth"})
 })
 
